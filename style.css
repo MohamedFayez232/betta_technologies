@@ -852,8 +852,8 @@ select {
 ========================= */
 
 .review-form {
-  margin-top: 40px;
-  padding: 32px;
+  margin-top: 50px;
+  padding: 42px;
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -861,7 +861,7 @@ select {
 }
 
 .form-header {
-  margin-bottom: 28px;
+  margin-bottom: 38px;
 }
 
 .form-header h3 {
@@ -900,7 +900,7 @@ select {
   border: 1px solid var(--line);
   background: var(--off);
   border-radius: 14px;
-  padding: 14px 16px;
+  padding: 18px 25px;
   outline: none;
   color: var(--ink);
   transition: 0.2s ease;
@@ -928,7 +928,7 @@ select {
 }
 
 .form-submit {
-  margin-top: 24px;
+  margin-top: 34px;
 }
 
 .form-status {
