@@ -642,7 +642,7 @@ select {
 
 
 /* =========================
-   WORK / PROJECTS
+   WORK
 ========================= */
 
 .work-heading {
@@ -814,7 +814,7 @@ select {
 .review-card {
   background: var(--white);
   border: 1px solid var(--line);
-  border-radius: 24px;
+  border-radius: var(--radius);
   padding: 26px;
   box-shadow: 0 14px 35px rgba(9, 20, 62, 0.07);
   transition: 0.25s ease;
@@ -854,7 +854,6 @@ select {
   );
   color: var(--white);
   font-weight: 800;
-  box-shadow: 0 8px 18px rgba(84, 104, 255, 0.2);
 }
 
 .reviewer-info h3 {
@@ -870,9 +869,7 @@ select {
 }
 
 
-/* =========================
-   GOLD STARS
-========================= */
+/* النجوم الذهبية */
 
 .review-rating {
   direction: ltr;
@@ -883,7 +880,7 @@ select {
   color: #f5b800;
   font-size: 1.15rem;
   letter-spacing: 2px;
-  text-shadow: 0 2px 5px rgba(245, 184, 0, 0.28);
+  text-shadow: 0 2px 5px rgba(245, 184, 0, 0.25);
 }
 
 .review-text {
@@ -917,17 +914,17 @@ select {
 }
 
 
-/* ==================================================
+/* =========================
    REVIEW FORM
-================================================== */
+========================= */
 
 .review-form {
   margin-top: 32px;
   padding: 32px;
   background: var(--white);
-  border: 1px solid #e4e8f2;
-  border-radius: 26px;
-  box-shadow: 0 18px 45px rgba(9, 20, 62, 0.08);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 16px 36px rgba(9, 20, 62, 0.06);
 }
 
 .form-header {
@@ -936,8 +933,7 @@ select {
 
 .form-header h3 {
   margin: 0 0 8px;
-  font-size: 1.55rem;
-  color: var(--ink);
+  font-size: 1.5rem;
 }
 
 .form-header p {
@@ -960,14 +956,14 @@ select {
 }
 
 .review-form label > span {
-  font-size: 0.86rem;
-  font-weight: 700;
+  font-size: 0.85rem;
+  font-weight: 600;
   color: var(--ink);
 }
 
 
 /* =========================
-   FORM INPUTS
+   FORM BOXES
 ========================= */
 
 .review-form input,
@@ -995,11 +991,6 @@ select {
   line-height: 1.8;
 }
 
-
-/* =========================
-   FORM HOVER
-========================= */
-
 .review-form input:hover,
 .review-form textarea:hover,
 .review-form select:hover {
@@ -1007,25 +998,15 @@ select {
   background: #ffffff;
 }
 
-
-/* =========================
-   FORM FOCUS
-========================= */
-
 .review-form input:focus,
 .review-form textarea:focus,
 .review-form select:focus {
   border-color: var(--blue);
-  background: #ffffff;
+  background: var(--white);
   box-shadow:
     0 0 0 4px rgba(84, 104, 255, 0.1),
     0 8px 20px rgba(9, 20, 62, 0.05);
 }
-
-
-/* =========================
-   PLACEHOLDER
-========================= */
 
 .review-form input::placeholder,
 .review-form textarea::placeholder {
@@ -1033,29 +1014,14 @@ select {
   opacity: 1;
 }
 
-
-/* =========================
-   SELECT
-========================= */
-
 .review-form select {
   cursor: pointer;
 }
-
-
-/* =========================
-   FULL WIDTH TEXTAREA
-========================= */
 
 .full-width {
   width: 100%;
   margin-top: 22px;
 }
-
-
-/* =========================
-   SUBMIT BUTTON
-========================= */
 
 .form-submit {
   margin-top: 22px;
@@ -1168,9 +1134,9 @@ footer {
 }
 
 
-/* ==================================================
+/* =========================
    TABLET
-================================================== */
+========================= */
 
 @media (max-width: 980px) {
 
@@ -1213,9 +1179,9 @@ footer {
 }
 
 
-/* ==================================================
+/* =========================
    MOBILE
-================================================== */
+========================= */
 
 @media (max-width: 760px) {
 
@@ -1312,7 +1278,6 @@ footer {
 
   .review-form {
     padding: 24px 18px;
-    border-radius: 22px;
   }
 
   .form-grid {
@@ -1328,22 +1293,9 @@ footer {
     padding: 22px 18px;
   }
 
-  .review-header {
-    gap: 10px;
-  }
-
   .stars {
     font-size: 1rem;
     letter-spacing: 1px;
-  }
-
-  .review-form input,
-  .review-form select {
-    height: 52px;
-  }
-
-  .review-form textarea {
-    min-height: 120px;
   }
 
   .form-submit {
@@ -1352,9 +1304,9 @@ footer {
 }
 
 
-/* ==================================================
+/* =========================
    REDUCED MOTION
-================================================== */
+========================= */
 
 @media (prefers-reduced-motion: reduce) {
 
