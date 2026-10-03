@@ -99,6 +99,7 @@ select {
   align-items: center;
   justify-content: center;
   margin-inline-end: auto;
+  height: 90px;
 }
 
 .logo-brand img {
