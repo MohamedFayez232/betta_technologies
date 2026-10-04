@@ -1325,3 +1325,226 @@ footer {
 
 
 /* deployment test */
+
+
+/* =========================
+   MOBILE LAYOUT FIXES
+   Mobile-only adjustments; desktop design/colors remain unchanged.
+========================= */
+
+@media (max-width: 760px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: min(100% - 28px, 1180px);
+  }
+
+  .nav {
+    min-height: 76px;
+    padding-top: 10px;
+    gap: 10px;
+  }
+
+  .brand {
+    height: 76px;
+    min-width: 0;
+  }
+
+  .logo-brand img {
+    width: 128px;
+    max-width: 100%;
+  }
+
+  .language-button,
+  .menu-button {
+    min-width: 42px;
+    padding-inline: 12px;
+  }
+
+  .hero {
+    padding-bottom: 48px;
+  }
+
+  .hero-content {
+    gap: 12px;
+    padding-top: 22px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(2rem, 8vw, 2.5rem);
+    overflow-wrap: anywhere;
+  }
+
+  .hero-text {
+    font-size: 0.98rem;
+  }
+
+  .hero-actions {
+    gap: 10px;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+    max-width: 340px;
+  }
+
+  .numbers {
+    gap: 10px;
+  }
+
+  .numbers div {
+    padding: 14px 10px;
+  }
+
+  .hero-visual {
+    width: 100%;
+    min-height: 320px;
+    overflow: hidden;
+  }
+
+  .main-phone {
+    width: 190px;
+    height: 310px;
+    left: 50%;
+    right: auto;
+    top: 8px;
+    transform: translateX(-35%) rotate(10deg);
+  }
+
+  .small-phone {
+    width: 132px;
+    height: 205px;
+    left: 4%;
+    bottom: 8px;
+  }
+
+  .section,
+  .services-section,
+  .process-section,
+  .reviews-section {
+    padding-top: 62px;
+    padding-bottom: 62px;
+  }
+
+  .service-card,
+  .process-card,
+  .project-body,
+  .testimonial-card {
+    min-width: 0;
+  }
+
+  .work-heading {
+    gap: 12px;
+  }
+
+  .reviews-header {
+    gap: 20px;
+  }
+
+  .reviews-stats {
+    gap: 10px;
+  }
+
+  .stat-item {
+    min-width: 0;
+    padding: 15px 10px;
+  }
+
+  .review-header {
+    flex-wrap: wrap;
+  }
+
+  .reviewer-info {
+    flex: 1 1 180px;
+  }
+
+  .review-rating {
+    margin-inline-start: auto;
+  }
+
+  .review-form {
+    padding: 22px 16px;
+  }
+
+  .review-form input,
+  .review-form select,
+  .review-form textarea {
+    min-width: 0;
+  }
+
+  .contact-details {
+    width: 100%;
+  }
+
+  .contact-details a {
+    width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .contact-social {
+    gap: 10px;
+  }
+
+  .contact-social a {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .cta {
+    width: calc(100% - 28px);
+    padding: 38px 16px 30px;
+    border-radius: 22px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: calc(100% - 24px);
+  }
+
+  .logo-brand img {
+    width: 112px;
+  }
+
+  .hero-copy h1 {
+    font-size: 2rem;
+  }
+
+  .numbers {
+    grid-template-columns: 1fr;
+  }
+
+  .numbers div {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-visual {
+    min-height: 285px;
+  }
+
+  .main-phone {
+    width: 165px;
+    height: 275px;
+    transform: translateX(-30%) rotate(8deg);
+  }
+
+  .small-phone {
+    width: 112px;
+    height: 175px;
+    left: 0;
+  }
+
+  .review-card {
+    padding: 18px 14px;
+  }
+
+  .review-meta {
+    flex-wrap: wrap;
+  }
+}
