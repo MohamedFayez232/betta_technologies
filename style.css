@@ -50,8 +50,8 @@ select {
   width: min(1180px, calc(100% - 32px)); 
   margin: 0 auto; 
 } 
-
-
+ 
+ 
 /* ========================= 
    HERO 
 ========================= */ 
@@ -79,8 +79,8 @@ select {
   ); 
   pointer-events: none; 
 } 
-
-
+ 
+ 
 /* ========================= 
    NAV 
 ========================= */ 
@@ -151,8 +151,8 @@ select {
   border-radius: 999px; 
   font-weight: 700; 
 } 
-
-
+ 
+ 
 /* ========================= 
    HERO CONTENT 
 ========================= */ 
@@ -243,8 +243,8 @@ select {
   color: var(--navy); 
   margin: 18px auto 0; 
 } 
-
-
+ 
+ 
 /* ========================= 
    NUMBERS 
 ========================= */ 
@@ -276,8 +276,8 @@ select {
   font-size: 0.88rem; 
   color: rgba(255, 255, 255, 0.8); 
 } 
-
-
+ 
+ 
 /* ========================= 
    HERO VISUAL 
 ========================= */ 
@@ -407,8 +407,8 @@ select {
   border-radius: 999px; 
   background: rgba(255, 255, 255, 0.08); 
 } 
-
-
+ 
+ 
 /* ========================= 
    GENERAL SECTIONS 
 ========================= */ 
@@ -437,8 +437,8 @@ select {
   font-size: clamp(2rem, 3vw, 3rem); 
   line-height: 1.3; 
 } 
-
-
+ 
+ 
 /* ========================= 
    ABOUT 
 ========================= */ 
@@ -526,8 +526,8 @@ select {
 .mini-stat.accent span { 
   color: var(--white); 
 } 
-
-
+ 
+ 
 /* ========================= 
    SERVICES 
 ========================= */ 
@@ -611,8 +611,8 @@ select {
   margin: 0; 
   color: var(--muted); 
 } 
-
-
+ 
+ 
 /* ========================= 
    PROCESS 
 ========================= */ 
@@ -640,8 +640,8 @@ select {
   color: var(--blue-strong); 
   font-weight: 800; 
 } 
-
-
+ 
+ 
 /* ========================= 
    WORK 
 ========================= */ 
@@ -705,8 +705,8 @@ select {
   font-weight: 700; 
   margin-bottom: 12px; 
 } 
-
-
+ 
+ 
 /* ========================= 
    TESTIMONIALS 
 ========================= */ 
@@ -740,8 +740,8 @@ select {
   color: var(--muted); 
   font-size: 0.81rem; 
 } 
-
-
+ 
+ 
 /* ================================================== 
    REVIEWS 
 ================================================== */ 
@@ -799,8 +799,8 @@ select {
   color: var(--muted); 
   font-size: 0.78rem; 
 } 
-
-
+ 
+ 
 /* ========================= 
    REVIEW CARDS 
 ========================= */ 
@@ -868,8 +868,8 @@ select {
   color: var(--muted); 
   font-size: 0.78rem; 
 } 
-
-
+ 
+ 
 /* النجوم الذهبية */ 
  
 .review-rating { 
@@ -913,8 +913,8 @@ select {
   color: var(--muted); 
   font-size: 0.78rem; 
 } 
-
-
+ 
+ 
 /* ========================= 
    REVIEW FORM 
 ========================= */ 
@@ -961,8 +961,8 @@ select {
   font-weight: 600; 
   color: var(--ink); 
 } 
-
-
+ 
+ 
 /* ========================= 
    FORM BOXES 
 ========================= */ 
@@ -1035,8 +1035,8 @@ select {
   font-size: 0.85rem; 
   font-weight: 600; 
 } 
-
-
+ 
+ 
 /* ========================= 
    CTA 
 ========================= */ 
@@ -1111,8 +1111,8 @@ select {
   border-radius: 999px; 
   color: rgba(255, 255, 255, 0.9); 
 } 
-
-
+ 
+ 
 /* ========================= 
    FOOTER 
 ========================= */ 
@@ -1133,8 +1133,8 @@ footer {
 .footer-content p { 
   margin: 0; 
 } 
-
-
+ 
+ 
 /* ========================= 
    TABLET 
 ========================= */ 
@@ -1178,8 +1178,8 @@ footer {
     grid-template-columns: repeat(3, minmax(0, 1fr)); 
   } 
 } 
-
-
+ 
+ 
 /* ========================= 
    MOBILE 
 ========================= */ 
@@ -1198,7 +1198,6 @@ footer {
     max-width: 100%;
   }
 
-
   /* =========================
      MOBILE NAV
   ========================= */
@@ -1208,20 +1207,20 @@ footer {
     grid-template-columns: minmax(0, 1fr) auto auto;
     align-items: center;
     gap: 8px;
-    min-height: 70px;
-    padding-top: 6px;
+    min-height: 78px;
+    padding-top: 8px;
     flex-wrap: nowrap;
   }
 
   .brand {
-    height: 64px;
+    height: 70px;
     min-width: 0;
     justify-content: flex-start;
     margin-inline-end: 0;
   }
 
   .logo-brand img {
-    width: 100px;
+    width: 105px;
     max-width: 100%;
     height: auto;
   }
@@ -1230,9 +1229,9 @@ footer {
   .menu-button {
     min-width: 0;
     width: auto;
-    height: 40px;
-    padding: 0 12px;
-    font-size: 0.8rem;
+    height: 42px;
+    padding: 0 13px;
+    font-size: 0.82rem;
     white-space: nowrap;
   }
 
@@ -1240,7 +1239,7 @@ footer {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.25rem;
   }
 
   .nav-links {
@@ -1248,11 +1247,11 @@ footer {
     grid-column: 1 / -1;
     width: 100%;
     flex-direction: column;
-    gap: 3px;
-    padding: 10px;
+    gap: 4px;
+    padding: 12px;
     background: rgba(255, 255, 255, 0.03);
     border: 1px solid rgba(255, 255, 255, 0.08);
-    border-radius: 15px;
+    border-radius: 16px;
   }
 
   .nav-links.open {
@@ -1262,61 +1261,59 @@ footer {
   .nav-links a {
     width: 100%;
     text-align: center;
-    padding: 8px 10px;
+    padding: 10px 12px;
   }
-
 
   /* =========================
      MOBILE HERO
   ========================= */
 
   .hero {
-    padding-bottom: 28px;
+    padding-bottom: 38px;
   }
 
   .hero-content {
     grid-template-columns: 1fr;
-    gap: 6px;
-    padding-top: 16px;
+    gap: 10px;
+    padding-top: 22px;
     text-align: center;
   }
 
   .hero-copy {
-    padding: 6px 0 0;
+    padding: 10px 0 0;
     min-width: 0;
   }
 
   .eyebrow {
-    font-size: 0.68rem;
-    margin-bottom: 9px;
+    font-size: 0.7rem;
+    margin-bottom: 12px;
   }
 
   .hero-copy h1 {
-    font-size: clamp(1.95rem, 7.3vw, 2.5rem);
-    line-height: 1.27;
+    font-size: clamp(2rem, 7.5vw, 2.65rem);
+    line-height: 1.3;
     overflow-wrap: normal;
   }
 
   .hero-text {
-    font-size: 0.88rem;
-    line-height: 1.7;
-    margin-top: 12px;
+    font-size: 0.92rem;
+    line-height: 1.8;
+    margin-top: 16px;
   }
 
   .hero-actions {
     justify-content: center;
-    gap: 8px;
-    margin-top: 16px;
+    gap: 10px;
+    margin-top: 22px;
   }
 
   .hero-actions .button {
     width: auto;
     max-width: 100%;
-    min-height: 46px;
-    padding: 0 16px;
-    font-size: 0.86rem;
+    min-height: 48px;
+    padding: 0 18px;
+    font-size: 0.9rem;
   }
-
 
   /* =========================
      MOBILE NUMBERS
@@ -1325,27 +1322,26 @@ footer {
   .numbers {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 6px;
-    margin-top: 18px;
+    gap: 7px;
+    margin-top: 24px;
   }
 
   .numbers div {
-    padding: 10px 4px;
-    gap: 3px;
+    padding: 12px 5px;
+    gap: 4px;
     text-align: center;
     align-items: center;
     min-width: 0;
   }
 
   .numbers b {
-    font-size: 1.08rem;
+    font-size: 1.15rem;
   }
 
   .numbers span {
-    font-size: 0.62rem;
-    line-height: 1.4;
+    font-size: 0.66rem;
+    line-height: 1.5;
   }
-
 
   /* =========================
      MOBILE HERO VISUAL
@@ -1353,50 +1349,26 @@ footer {
 
   .hero-visual {
     width: 100%;
-    min-height: 245px;
-    max-height: 250px;
+    min-height: 290px;
     overflow: hidden;
   }
 
   .main-phone {
-    width: 145px;
-    height: 235px;
+    width: 165px;
+    height: 270px;
     left: 50%;
     right: auto;
-    top: 3px;
+    top: 8px;
     transform: translateX(-35%) rotate(8deg);
   }
 
   .small-phone {
-    width: 100px;
-    height: 150px;
-    left: 7%;
-    bottom: 3px;
+    width: 115px;
+    height: 175px;
+    left: 8%;
+    bottom: 8px;
     transform: rotate(-8deg);
   }
-
-  .phone-screen {
-    inset: 10px;
-    border-radius: 20px;
-    padding: 12px 13px;
-  }
-
-  .screen-dot {
-    width: 9px;
-    height: 9px;
-    margin-bottom: 13px;
-  }
-
-  .screen-main p {
-    font-size: 0.95rem;
-    line-height: 1.4;
-  }
-
-  .screen-card {
-    height: 58px;
-    border-radius: 13px;
-  }
-
 
   /* =========================
      MOBILE GENERAL SECTIONS
@@ -1406,19 +1378,13 @@ footer {
   .services-section,
   .process-section,
   .reviews-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  .section-label {
-    padding: 7px 13px;
-    margin-bottom: 12px;
-    font-size: 0.76rem;
+    padding-top: 55px;
+    padding-bottom: 55px;
   }
 
   .about-grid {
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 22px;
   }
 
   .about h2,
@@ -1426,20 +1392,9 @@ footer {
   .testimonials h2,
   .work h2,
   .services-section h2 {
-    font-size: 1.55rem;
-    line-height: 1.4;
-    margin-bottom: 18px;
+    font-size: 1.65rem;
+    line-height: 1.45;
   }
-
-  .about p {
-    line-height: 1.75;
-  }
-
-  .check-list {
-    gap: 7px;
-    margin-top: 16px;
-  }
-
 
   /* =========================
      MOBILE ABOUT
@@ -1447,24 +1402,23 @@ footer {
 
   .about-panel {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 6px;
-    padding: 8px;
+    gap: 7px;
+    padding: 10px;
   }
 
   .mini-stat {
-    padding: 12px 4px;
+    padding: 14px 5px;
     min-width: 0;
   }
 
   .mini-stat strong {
-    font-size: 1.12rem;
+    font-size: 1.2rem;
   }
 
   .mini-stat span {
-    font-size: 0.62rem;
-    line-height: 1.4;
+    font-size: 0.65rem;
+    line-height: 1.5;
   }
-
 
   /* =========================
      MOBILE SERVICES
@@ -1472,84 +1426,61 @@ footer {
 
   .services-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-    margin-top: 18px;
+    gap: 12px;
   }
 
   .service-card {
-    padding: 16px 11px;
+    padding: 18px 13px;
     min-width: 0;
   }
 
   .service-card h3,
   .process-card h3,
   .project-body h3 {
-    font-size: 1rem;
-    line-height: 1.45;
-    margin-bottom: 8px;
+    font-size: 1.05rem;
+    line-height: 1.5;
   }
 
   .service-card p,
   .process-card p,
   .project-body p {
-    font-size: 0.78rem;
-    line-height: 1.7;
+    font-size: 0.82rem;
+    line-height: 1.8;
   }
 
   .service-icon {
-    width: 40px;
-    height: 40px;
-    font-size: 1.25rem;
-    margin-bottom: 9px;
-    border-radius: 12px;
+    width: 42px;
+    height: 42px;
+    font-size: 1.35rem;
+    margin-bottom: 12px;
   }
-
 
   /* =========================
      MOBILE PROCESS
   ========================= */
 
-  .process-section {
-    padding-top: 40px;
-    padding-bottom: 30px;
-  }
-
   .process-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    gap: 12px;
   }
 
   .process-card {
-    padding: 15px 11px;
+    padding: 17px 13px;
     min-width: 0;
   }
 
   .process-card span {
-    width: 38px;
-    height: 38px;
-    font-size: 0.85rem;
+    width: 40px;
+    height: 40px;
   }
-
 
   /* =========================
      MOBILE WORK
   ========================= */
 
-  .work-heading {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 7px;
-    margin-bottom: 18px;
-  }
-
-  .work-description {
-    font-size: 0.84rem;
-    line-height: 1.7;
-  }
-
   .projects-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    gap: 12px;
   }
 
   .project-card {
@@ -1561,222 +1492,105 @@ footer {
   }
 
   .project-body {
-    padding: 12px 10px 15px;
+    padding: 14px 12px 18px;
   }
 
   .tag {
-    font-size: 0.6rem;
-    padding: 4px 7px;
-    margin-bottom: 8px;
+    font-size: 0.64rem;
+    padding: 5px 8px;
   }
 
+  .work-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .work-description {
+    font-size: 0.88rem;
+  }
 
   /* =========================
      MOBILE TESTIMONIALS
   ========================= */
 
-  .testimonials {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
   .testimonials-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
+    gap: 12px;
   }
 
   .testimonial-card {
-    padding: 15px 11px;
+    padding: 17px 13px;
     min-width: 0;
   }
-
 
   /* =========================
      MOBILE REVIEWS
   ========================= */
 
-  .reviews-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
   .reviews-header {
     flex-direction: column;
     align-items: stretch;
-    gap: 14px;
-    margin-bottom: 20px;
-  }
-
-  .reviews-header h2 {
-    font-size: 1.55rem;
-    margin-bottom: 8px;
-  }
-
-  .reviews-header > div:first-child > p {
-    font-size: 0.82rem;
-    line-height: 1.7;
+    gap: 18px;
   }
 
   .reviews-stats {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     width: 100%;
-    gap: 8px;
+    gap: 10px;
   }
 
   .stat-item {
     min-width: 0;
-    padding: 10px 7px;
+    padding: 12px 8px;
   }
 
   .stat-item .rating,
   .stat-item .count {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
-
-  .stat-item p {
-    font-size: 0.68rem;
-    margin-top: 2px;
-  }
-
-
-  /* =========================
-     REVIEW CARDS
-     2 COLUMNS ON MOBILE
-  ========================= */
 
   .reviews-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 10px;
-    margin-bottom: 24px;
+    grid-template-columns: 1fr;
+    gap: 14px;
   }
 
   .review-card {
-    padding: 14px 11px;
+    padding: 18px 14px;
     min-width: 0;
-    border-radius: 18px;
   }
 
   .review-header {
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
+    flex-wrap: wrap;
   }
 
   .reviewer-info {
-    width: 100%;
-    gap: 8px;
-  }
-
-  .reviewer-avatar {
-    width: 40px;
-    height: 40px;
-    flex: 0 0 40px;
-    font-size: 0.85rem;
-  }
-
-  .reviewer-info h3 {
-    font-size: 0.82rem;
-  }
-
-  .reviewer-info span {
-    font-size: 0.66rem;
+    flex: 1 1 150px;
+    min-width: 0;
   }
 
   .review-rating {
-    margin-inline-start: 0;
+    margin-inline-start: auto;
   }
 
   .stars {
-    font-size: 0.82rem;
+    font-size: 0.95rem;
     letter-spacing: 1px;
   }
 
-  .review-text {
-    margin: 11px 0;
-    font-size: 0.75rem;
-    line-height: 1.7;
-  }
-
-  .review-meta {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-    padding-top: 10px;
-  }
-
-  .project-tag {
-    padding: 5px 8px;
-    font-size: 0.62rem;
-  }
-
-  .review-meta .date {
-    font-size: 0.68rem;
-  }
-
-
-  /* =========================
-     MOBILE REVIEW FORM
-  ========================= */
-
   .review-form {
-    margin-top: 22px;
-    padding: 18px 12px;
-  }
-
-  .form-header {
-    margin-bottom: 18px;
-  }
-
-  .form-header h3 {
-    font-size: 1.25rem;
-  }
-
-  .form-header p {
-    font-size: 0.82rem;
-    line-height: 1.7;
+    padding: 20px 14px;
   }
 
   .form-grid {
     grid-template-columns: 1fr;
-    gap: 12px;
-    margin-bottom: 16px;
-  }
-
-  .review-form label {
-    gap: 7px;
-  }
-
-  .review-form label > span {
-    font-size: 0.78rem;
-  }
-
-  .review-form input,
-  .review-form textarea,
-  .review-form select {
-    padding: 11px 12px;
-    border-radius: 13px;
-  }
-
-  .review-form input,
-  .review-form select {
-    height: 50px;
-  }
-
-  .review-form textarea {
-    min-height: 115px;
-  }
-
-  .full-width {
-    margin-top: 14px;
+    gap: 14px;
   }
 
   .form-submit {
     width: 100%;
-    min-width: 0;
-    margin-top: 16px;
   }
-
 
   /* =========================
      MOBILE CTA / CONTACT
@@ -1784,80 +1598,75 @@ footer {
 
   .cta {
     width: calc(100% - 24px);
-    margin-bottom: 24px;
-    padding: 26px 12px 22px;
-    border-radius: 20px;
+    margin-bottom: 30px;
+    padding: 32px 14px 26px;
+    border-radius: 22px;
     overflow: hidden;
   }
 
   .cta .eyebrow {
-    font-size: 0.72rem;
-    margin-bottom: 8px;
+    font-size: 0.78rem;
+    margin-bottom: 10px;
   }
 
   .cta h2 {
-    font-size: clamp(1.7rem, 6.8vw, 2.2rem);
-    line-height: 1.3;
-    margin-bottom: 12px;
+    font-size: clamp(1.8rem, 7vw, 2.3rem);
+    line-height: 1.35;
+    margin-bottom: 16px;
   }
 
   .cta > p:not(.eyebrow) {
-    font-size: 0.82rem;
-    line-height: 1.7;
+    font-size: 0.88rem;
+    line-height: 1.8;
   }
 
   .button.light {
     width: auto;
     max-width: 100%;
-    min-height: 48px;
-    padding: 0 20px;
-    font-size: 0.9rem;
+    min-height: 50px;
+    padding: 0 24px;
+    font-size: 0.95rem;
   }
 
   .contact-details {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     width: 100%;
-    gap: 8px;
-    margin-top: 16px;
+    gap: 10px;
+    margin-top: 20px;
   }
 
   .contact-details a {
     display: flex;
     width: 100%;
     min-width: 0;
-    padding: 12px 10px;
-    gap: 4px;
+    padding: 15px 13px;
+    gap: 5px;
     text-align: start;
     overflow: hidden;
   }
 
   .contact-details span {
-    font-size: 0.68rem;
+    font-size: 0.75rem;
   }
 
   .contact-details b {
     display: block;
     max-width: 100%;
-    font-size: clamp(0.65rem, 3vw, 0.82rem);
-    line-height: 1.55;
+    font-size: clamp(0.72rem, 3.4vw, 0.92rem);
+    line-height: 1.7;
     overflow-wrap: anywhere;
     word-break: break-word;
     direction: ltr;
     text-align: right;
   }
 
-
-  /* =========================
-     SOCIAL LINKS
-  ========================= */
-
   .contact-social {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     justify-content: center;
-    gap: 7px;
-    margin-top: 13px;
+    gap: 9px;
+    margin-top: 16px;
   }
 
   .contact-social a {
@@ -1865,8 +1674,8 @@ footer {
     justify-content: center;
     align-items: center;
     min-width: 0;
-    padding: 8px 5px;
-    font-size: 0.76rem;
+    padding: 10px 6px;
+    font-size: 0.82rem;
     white-space: nowrap;
   }
 
@@ -1876,19 +1685,14 @@ footer {
     width: 48%;
   }
 
-
   /* =========================
      MOBILE FOOTER
   ========================= */
 
-  footer {
-    padding: 22px 0 30px;
-  }
-
   .footer-content {
     flex-direction: column;
     text-align: center;
-    gap: 10px;
+    gap: 12px;
   }
 
   .footer-content .brand {
@@ -1918,77 +1722,24 @@ footer {
   }
 
   .hero-copy h1 {
-    font-size: 1.8rem;
-  }
-
-  .hero-visual {
-    min-height: 220px;
-    max-height: 225px;
-  }
-
-  .main-phone {
-    width: 132px;
-    height: 215px;
-  }
-
-  .small-phone {
-    width: 92px;
-    height: 138px;
+    font-size: 1.85rem;
   }
 
   .hero-actions .button {
-    padding-inline: 12px;
-    font-size: 0.78rem;
+    padding-inline: 13px;
+    font-size: 0.8rem;
   }
 
   .services-grid,
   .process-grid,
   .projects-grid,
   .testimonials-grid {
-    gap: 8px;
+    gap: 9px;
   }
 
   .service-card,
   .process-card {
-    padding: 13px 9px;
-  }
-
-  .review-card {
-    padding: 13px 9px;
-  }
-
-  .contact-details {
-    gap: 7px;
-  }
-
-  .contact-details a {
-    padding: 11px 8px;
-  }
-}
-
-
-/* =========================
-   VERY SMALL SCREENS
-   REVIEWS BACK TO ONE COLUMN
-========================= */
-
-@media (max-width: 340px) {
-
-  .reviews-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-details {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-social {
-    grid-template-columns: 1fr;
-  }
-
-  .contact-social a:last-child {
-    grid-column: auto;
-    width: 100%;
+    padding: 14px 10px;
   }
 }
 
